@@ -1,0 +1,15 @@
+{
+  "name": "likec4-template",
+  "version": "0.0.1",
+  "private": true,
+  "description": "LikeC4 template",
+  "scripts": {
+    "start": "likec4 serve",
+    "dev": "likec4 serve",
+    "build": "likec4 build",
+    "export:png": "likec4 export png -o ./png"
+  },
+  "devDependencies": {
+    "likec4": "^1.17.1"
+  }
+}
